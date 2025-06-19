@@ -2,7 +2,7 @@
 .ONESHELL: clean venv install test format setup style
 
 
-package := {{ cookiecutter.package_name }}
+package := {{ cookiecutter.package }}
 
 clean:
 	rm -rf ./venv
